@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulum</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/ulum.jpg" />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="posisi">
+                    <div class="dropdown-content">
+                        <a href="#pendidikan">Pendidikan</a>
+                        <hr />
+                        <a href="#hobi">Hobi</a>
+                        <hr />
+                        <a href="#social">Social Media</a>
+                        <hr />
+                        <a href="#favorit">Favorite Color</a>
+                        <hr />
+                        <a href="#identitas">Identitas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="card center">
+            <h1 class="text-brown">Tentang Saya</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div id="edukasi"  class="row">
+                <article id="pendidikan" class="card">
+                    <h2>
+                        <i class="fas fa-book-reader"></i> Pendidikan
+                    </h2>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Sekolah</th>
+                                <th>Lulus</th>
+                            </tr>
+                            <tr>
+                                <td>Mts Mathalibul Huda</td>
+                                <td>2016</td>
+                            </tr>
+                            <tr>
+                                <td>SMA Negeri 1 Jepara</td>
+                                <td>2019</td>
+                            </tr>
+                            <tr>
+                                <td>Universitas Islam Nahdlatul Ulama</td>
+                                <td>2020 - sekarang</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+                <article id="hobi" class="card">
+                    <h2>
+                        <i class="fas fa-play"></i>
+                        Hobi
+                    </h2>
+                    <ol>
+                        <li>Membaca</li>
+                        <li>Ngoding</li>
+                        <li>Ngegame</li>
+                    </ol>
+                </article>
+            </div>
+            <div class="row">
+                <article id="social" class="card">
+                    <h2><i class="fas fa-users"></i> Sosial Media</h2>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Platform</th>
+                                <th>Nama Akun</th>
+                            </tr>
+                            <tr>
+                                <td><i class="fab fa-facebook"></i></td>
+                                <td>
+                                    <a href="https://www.facebook.com/ulum.mambak">Miftakhul Ulum</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="fab fa-instagram"></i></td>
+                                <td>
+                                    <a href="https://www.instagram.com/ini_ulum/">ini_ulum</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="fab fa-github"></i></td>
+                                <td>
+                                    <a href="https://github.com/miftakhul-dev">MIFTAKHUL ULUM
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="fab fa-linkedin"></i></td>
+                                <td>
+                                    <a href="https://www.linkedin.com/in/miftakhululum">Muhammad Miftakhul Ulum</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+                <article id="favorit" class="card">
+                    <h2><i class="fas fa-palette"></i> Warna Kesukaan</h2>
+                    <p>
+                        Saya suka warna coklat karena memberikan kesan hangat, alami, dan
+                        menenangkan bagi saya.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <aside class="card" id="identitas">
+            <h2>
+                <i class="fas fa-id-card"></i>
+                Identitas
+            </h2>
+            <img src="assets/images/ulum.jpg" alt="" />
+            <section>
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                        <td>Muhammad Miftakhul Ulum</td>
+                    </tr>
+                    <tr>
+                        <th>Nama Panggilan</th>
+                        <td>Ulum</td>
+                    </tr>
+                    <tr>
+                        <th>Alamat</th>
+                        <td>Jepara, Jawa Tengah</td>
+                    </tr>
+                    <tr>
+                        <th>Kewarganegaraan</th>
+                        <td>WNI</td>
+                    </tr>
+                </table>
+            </section>
+        </aside>
+        <button id="top" onclick="scrollToTop()">
+            <i class="fas fa-caret-up"></i>
+        </button>
+    </main>
+
+    <footer>
+        <p>
+            Built with <i class="fas fa-heart" style="color: red"></i> &#169; 2023,
+            Muhammad Miftakhul Ulum
+        </p>
+    </footer>
+
+    <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
